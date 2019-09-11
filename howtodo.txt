@@ -1,0 +1,16 @@
+1>>Bhavcopy
+
+Pythonic version bhavcopy. Downloads the EOD data from the last downloaded date. This script pulls the data from NSE site.
+
+IMPORTANT:
+
+Before running this script , create a file called log.txt and save it in the download directory and write the date from which you want to download EOD data
+
+for eg: if you need data from Nov 10, 2017 write the date as 2017-11-10 (in yyyy-mm-dd format)
+
+2>>at line no.5 of bhav code give exact path where you just saved the your log.txt
+
+3>>need to import some libs like-
+   pandas,requests,zipfile,os,io,dash
+   
+
