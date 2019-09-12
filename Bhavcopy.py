@@ -1,4 +1,9 @@
-import requests, zipfile, os, io, pandas as pd
+import requests, os, io, pandas as pd
+import sys
+if sys.version_info >= (3, 6):#because zipfile lib is not available
+    import zipfile
+else:
+    import zipfile36 as zipfile
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 
