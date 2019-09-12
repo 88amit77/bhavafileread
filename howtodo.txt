@@ -1,3 +1,4 @@
+steps to use this code(IDE-pycharm/python version-3.6)-
 1>>Bhavcopy
 
 Pythonic version bhavcopy. Downloads the EOD data from the last downloaded date. This script pulls the data from NSE site.
@@ -8,9 +9,8 @@ Before running this script , create a file called log.txt and save it in the dow
 
 for eg: if you need data from Nov 10, 2017 write the date as 2017-11-10 (in yyyy-mm-dd format)
 
-2>>at line no.5 of bhav code give exact path where you just saved the your log.txt
+2>>At line no.5 (base)of bhav code you just need to give exact path where you just saved your log.txt file.
 
-3>>need to import some libs like-
-   pandas,requests,zipfile,os,io,dash
-   
-
+3>>Need to import some libs like-
+   pandas,requests,zipfile36,os,io,dash,sys,numpy,beautifulsoap4 etc
+4>>When you run bhavcopy.py file a folder is created in download directory name 2019 in which your all bhavcopy CSV file were copyied    
