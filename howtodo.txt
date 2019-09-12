@@ -9,7 +9,7 @@ Before running this script , create a file called log.txt and save it in the dow
 
 for eg: if you need data from Nov 10, 2017 write the date as 2017-11-10 (in yyyy-mm-dd format)
 
-2>>At line no.5 (base)of bhav code you just need to give exact path where you just saved your log.txt file.
+2>>At line no.10 (base)of bhavcopy.py you just need to give exact path where you just saved your log.txt file in downloads directory.
 
 3>>Need to import some libs like-
    pandas,requests,zipfile36,os,io,dash,sys,numpy,beautifulsoap4 etc
